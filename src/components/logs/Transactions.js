@@ -61,7 +61,7 @@ function Transactions() {
 
     const transactionObject = {
       fromAccountNumber,
-      toAccountName,
+      toAccountName, 
       amount,
       date: new Date().toLocaleDateString(),
     };
